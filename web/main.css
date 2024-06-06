@@ -17,7 +17,7 @@ header h1 {
 }
 
 header a {
-  color: #4CAF50;
+  color: #4caf50;
   text-decoration: none;
 }
 
@@ -52,11 +52,11 @@ input {
   border: 1px solid #ccc;
   border-radius: 3px;
   margin-bottom: 15px;
-  resize: none; 
+  resize: none;
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  background-color: #45A049;
+  background-color: #45a049;
 }
 
 form {
@@ -73,7 +73,6 @@ form {
   justify-content: space-evenly;
   gap: 10px;
 }
-
 
 .music-card {
   margin-bottom: 15px;
@@ -83,7 +82,6 @@ form {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-evenly;
-  
 }
 
 .music-card h3 {
