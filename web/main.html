@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="welcomeUser">Welcome, {{username}}!</h1> <a href="index.html">Logout</a>
+    </header>
+    <main>
+        <section id="subscription-area">
+            <h2>Subscription</h2>
+            <p id="subscriptionEmpty">No Subscriptions</p>
+            <div id="subscriptionList"></div>
+        </section>
+        <section id="query-area">
+            <h2>Query</h2>
+            <form action="#" id="queryForm" onsubmit="return false">
+                <label for="title">Title:</label>
+                <input id="title" name="title" placeholder="Enter title (optional)"></input>
+                <label for="year">Year:</label>
+                <input id="year" name="year" placeholder="Enter year (optional)"></input>
+                <label for="artist">Artist:</label>
+                <input id="artist" name="artist" placeholder="Enter artist (optional)"></input>
+                <button type="submit" onClick="queryMusic(this.form)">Query</button>
+            </form>
+            <h1 id="resultsFound"></h1>
+            <div id="queryList"></div>
+        </section>
+    </main>
+</body>
+
+</html>

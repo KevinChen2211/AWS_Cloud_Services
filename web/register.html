@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" async></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" async></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <div id="error-message" style="display: none; color: red;"></div>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <button type="submit" id="createAccountButton">Register</button>
+            <a href="index.html">Back to Login</a>
+        </form>
+    </div>
+</body>
+
+</html>

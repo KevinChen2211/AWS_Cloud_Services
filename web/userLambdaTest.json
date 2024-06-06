@@ -1,0 +1,21 @@
+// add user
+{
+    "email": "s3780640@student.rmit.edu.au",
+    "type": "update",
+    "user_name": "Kevin Chen0",
+    "password": "012345"
+}
+// get user
+{
+    "email": "s3780640@student.rmit.edu.au",
+    "type": "get",
+    "user_name": "",
+    "password": ""
+}
+// wrong type
+{
+    "email": "s3780640@student.rmit.edu.au",
+    "type": "test",
+    "user_name": "",
+    "password": ""
+}

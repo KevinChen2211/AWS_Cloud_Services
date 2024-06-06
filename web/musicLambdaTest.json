@@ -1,0 +1,32 @@
+// get music detials
+{
+    "web_url": "https://raw.githubusercontent.com/davidpots/songnotes_cms/master/public/songs/119-dave-matthews-40",
+    "type": "getDetails",
+    "title": "",
+    "year": "",
+    "artist": ""
+}
+// search music 
+{
+    "web_url": "",
+    "type": "search",
+    "title": "#",
+    "year": "",
+    "artist": ""
+}
+// search many
+{
+    "web_url": "",
+    "type": "search",
+    "title": "Half",
+    "year": "",
+    "artist": "Fire"
+}
+//   search nothing
+{
+    "web_url": "",
+    "type": "search",
+    "title": "",
+    "year": "",
+    "artist": ""
+}
